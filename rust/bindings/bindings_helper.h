@@ -13,6 +13,7 @@
 #include <linux/wait.h>
 #include <linux/sched.h>
 #include <linux/workqueue.h>
+#include <wwtest/wwkerneltest.h>
 
 /* `bindgen` gets confused at certain things. */
 const size_t RUST_BINDING_ARCH_SLAB_MINALIGN = ARCH_SLAB_MINALIGN;
